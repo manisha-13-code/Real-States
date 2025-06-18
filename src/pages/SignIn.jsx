@@ -62,7 +62,7 @@ const SignIn = () => {
 
                 <button
                     disabled={loading}
-                    className='bg-slate-700 text-white p-3 rounded-lg hover:opacity-95'
+                    className='bg-slate-700 text-white p-3 uppercase rounded-lg hover:opacity-95'
                 >
                      {loading ? 'Loading...' : 'Sign In'}
                 </button>
